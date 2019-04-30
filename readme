@@ -12,7 +12,7 @@ Vous devez créer votre base de donnée, pour cela deux méthodes:
 
 Première méthode :
 
-Importer directement le fichier gaming.sql dans votre base de donnée.
+Importer directement le fichier worldofwarcraft.sql dans votre base de donnée.
 Il se trouve dans le dossier SQL_SOURCES.
 Celui-ci contient tout ce qu'il faut, ainsi que deux exemples.
 Deuxième méthode :
@@ -21,18 +21,19 @@ Vous devez absolument créer une base de donnée "gaming" ainsi qu'un table "per
 "personnage" comportera plusieurs champs:
     - id -> integer (A.I = Auto Incrément)
     - name -> varchar (255 ou moins, c'est vous qui voyez !)
-    - Job -> varchar (255 ou moins, c'est vous qui voyez !)
+    - classe -> varchar (255 ou moins, c'est vous qui voyez !)
+    - faction -> varchar (255 ou moins, c'est vous qui voyez !)
     - level -> integer
-Deposer votre fichier guildPhp dans le dossier www si vous utiliser Wamp. Lancer votre serveur local et aller sur l'adresse suivante : http://localhost/mvcTraining/ Vous pouvez changer de route dans le front controller "index.php" et ainsi choisir votre propore URL.
+Deposer votre fichier examphpflat dans le dossier www si vous utiliser Wamp. Lancer votre serveur local et aller sur l'adresse suivante : http://localhost/mvcTraining/ Vous pouvez changer de route dans le front controller "index.php" et ainsi choisir votre propore URL.
 
 3- UTILISATION
 
 La page d'accueil affichera toujours la liste des personnages contenus dans la base de donnée "gaming" Vous pouvez choisir parmis 3 options : Ajouter, Supprimer, Modifier.
 
-- Ajouter : Cliquer sur ajouter, une fenêtre modal apparait et vous invite à entrer les informations de votre personnage.
+- Ajouter : Cliquer sur ajouter, une fenêtre  apparait et vous invite à entrer les informations de votre personnage.
             Une fois valider, vous reviendrez à la page d'accueil avec le personnage ajouter.
 
-- Supprier : Cliquer sur supprimer pour supprimer le personnage souhaiter. A noter que la demande est irréversible et qu'AUCUNE demande validation ne sera demander.
+- Supprimer : Cliquer sur supprimer pour supprimer le personnage souhaiter. A noter que la demande est irréversible et qu'AUCUNE demande validation ne sera demander.
              Soyez sûr de votre clique !
 
 - Modifier : Cliquer sur modifier pour pouvoir modifier une personnage déjà enregistré. Un formulaire apparaitra affichant les informations du personnage.
