@@ -1,0 +1,12 @@
+{
+    "name": "hb/exam-alexis-php",
+    "authors": [
+        {
+            "name": "Alexis Monterrat",
+            "email": "Alexis.monterrat@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.24"
+    }
+}
